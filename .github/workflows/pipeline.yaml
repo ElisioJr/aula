@@ -3,3 +3,13 @@ on:
   push:
    branches:
       - feature/*
+name: Minha primeira pipeline
+jobs:
+ hellow-world:
+neme: Hello
+  runs-on: ubuntu-latest
+steps: 
+  - name: Print Hello
+    run: echo "Hello"
+  - name: Print World
+    run: echo "World"
