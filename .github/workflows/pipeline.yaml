@@ -6,9 +6,9 @@ on:
 name: Minha primeira pipeline
 jobs:
  hellow-world:
-neme: Hello
+  name: Hello
   runs-on: ubuntu-latest
-steps: 
+  steps: 
   - name: Print Hello
     run: echo "Hello"
   - name: Print World
